@@ -11,9 +11,12 @@ public class Main {
         ferrari.setUser(user);
         user.addAuto(ferrari);
         Auto ford = new Auto("Ford","black");
-        ford.setUser(user);
+        //ford.setUser(user);
         user.addAuto(ford);
         userService.updateUser(user);
+        user.setName("Igor");
+        userService.updateUser(user);
+        userService.deleteUser(user);
     }
 }
 
