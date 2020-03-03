@@ -9,5 +9,8 @@
         <module name="FirstHibrenateORM" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="FirstHibrenateORM" target="11" />
+    </bytecodeTargetLevel>
   </component>
 </project>
